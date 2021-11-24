@@ -1,5 +1,5 @@
 {
-  "name": "uplot",
+  "name": "@aliyun-sls/uplot",
   "version": "1.6.17",
   "description": "A small, fast chart for time series, lines, areas, ohlc & bars",
   "main": "./dist/uPlot.cjs.js",
@@ -7,7 +7,8 @@
   "typings": "./dist/uPlot.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"pub": "npm publish --access public"
   },
   "repository": {
     "type": "git",
